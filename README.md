@@ -4,21 +4,21 @@ Este projeto é uma aplicação web desenvolvida em C++ utilizando o microframew
 
 ### 🧱 Estrutura do Projeto
 
-pasta_raiz/
-├── main.cpp    # Arquivo principal da aplicação
-├── views/
-│ └── login/
-│ ├── login.hpp      # Header das rotas de login
-│ └── loginViews.cpp      # Implementação das rotas de login
-├── models/
-│ └── login/
-│ └── loginModel.cpp     # Operações com banco de dados para login
-├── static/         # Arquivos estáticos (CSS, JS, imagens)
-├── templates/      # Arquivos HTML (templating)
-│ └── login.html
-├── erro.txt        # Arquivo gerado em caso de erro
-└── output/
-└── main.exe        # Executável gerado após compilação
+    pasta_raiz/
+        ├── main.cpp    # Arquivo principal da aplicação
+        ├── views/
+            └── login/
+                └── login.hpp      # Header das rotas de login
+                └── loginViews.cpp      # Implementação das rotas de login
+        ├── models/
+            └── login/
+                └── loginModel.cpp     # Operações com banco de dados para login
+        ├── static/         # Arquivos estáticos (CSS, JS, imagens)
+        ├── templates/      # Arquivos HTML (templating)
+            └── login.html
+        ├── erro.txt        # Arquivo gerado em caso de erro
+        └── output/
+            └── main.exe        # Executável gerado após compilação
 
 ### ⚙️ Requisitos
 
